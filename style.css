@@ -99,3 +99,78 @@
     height: 100%;
     border-radius: 2vh;
 }
+
+@media (max-width: 768px) {
+
+    .navbar-container {
+        height: auto;
+        padding: 3vw;
+        align-items: center;
+    }
+
+    .navbar-container .navbar-logo {
+        padding: 0;
+    }
+
+    .navbar-container .navbar-logo a img {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    .navbar-container .navbar-links {
+        display: none;
+    }
+
+    .navbar-container .navbar-user {
+        padding: 2vw;
+        border-radius: 2vw;
+    }
+
+    .hero-container {
+        width: 100%;
+        height: auto;
+        padding: 8vw 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 6vw;
+    }
+
+    .hero-container .hero-text {
+        width: 100%;
+        padding-top: 0;
+        gap: 3vw;
+    }
+
+    .hero-container .hero-text h1 {
+        font-size: 8vw;
+    }
+
+    .hero-container .hero-text h2 {
+        font-size: 8vw;
+    }
+
+    .hero-container .hero-text p {
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+
+    .hero-container .hero-text button {
+        font-size: 4vw;
+        padding: 3vw;
+        width: 55vw;
+    }
+
+    .hero-container .hero-image {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .hero-container .hero-image img {
+        width: 100%;
+        height: auto;
+        max-height: 70vh;
+        object-fit: contain;
+        border-radius: 3vw;
+    }
+}
